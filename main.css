@@ -1,0 +1,135 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.sign-in {
+    border: 1px solid rgba(185, 185, 185, 0.516);
+    border-radius: 3px;
+    width: 450px;
+    height: 335px;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+h1 {
+    color: rgb(44, 44, 44);
+    margin-left: 20px;
+    margin-top: 4px;
+    font-weight: 10;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-left: 20px;
+}
+
+input {
+    margin-top: 11px;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+.forgot {
+    margin-left: 154px;
+}
+
+.password {
+    margin-left: 38px;
+    font-size: 16px;
+}
+
+.continue {
+    border: 1px solid rgba(82, 82, 82, 0.367);
+    border-radius: 2px;
+    margin-left: 20px;
+    width: 409px;
+    height: 32px;
+    background-color: rgba(239, 180, 1, 0.818);
+    font-size: 14px;
+    margin-bottom: 27px;
+}
+
+.help {
+    margin-left: 40px;
+}
+
+.new {
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    margin: 15px auto;
+    color: rgba(123, 123, 123, 0.8);
+    margin-bottom: 5px;
+
+}
+
+.new:before {
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 135px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    background: rgba(123, 123, 123, .8);
+    z-index: -2;
+}
+
+.new:after {
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 135px;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    background: rgba(123, 123, 123, .8);
+    z-index: -2;
+}
+
+
+.create {
+    width: 420px;
+    height: 32px;
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    border-top: 2px solid black;
+    margin-top: 75px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 12px;
+}
+
+.conditions {
+    margin-right: 23px;
+}
+
+.privacy {
+    margin-right: 20px;
+}
+
+.copyright {
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+.continue:hover {
+    cursor: pointer;
+    background: rgba(214, 160, 0, 0.89);
+
+}
+
+.create:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(187, 20, 20);
+    text-decoration: underline;
+}
